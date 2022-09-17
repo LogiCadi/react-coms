@@ -1,0 +1,19 @@
+.rc-tips-banner {
+  background-color: #fef9f2;
+  border: 1px solid #f7e9da;
+  padding: 8px 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.rc-tips-banner-content {
+  font-size: 12px;
+  margin: 0 4px;
+  line-height: 20px;
+  flex: 1;
+}
+.rc-tips-banner-close {
+  cursor: pointer;
+}
+.rc-tips-banner-close:hover {
+  opacity: 0.8;
+}
