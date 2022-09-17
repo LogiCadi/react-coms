@@ -9,10 +9,9 @@
 ## 使用
 
 ```tsx
-import React from "react";
 import TipsBanner from ".";
 
-export default function Example() {
-  return <TipsBanner>请勿随地大小便！</TipsBanner>;
+export default function App() {
+  return <TipsBanner onClose={() => console.log("close.")}>请勿随地大小便！</TipsBanner>;
 }
 ```
