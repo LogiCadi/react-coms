@@ -1,13 +1,14 @@
 import { ReactNode } from "react";
-import info from "./info.svg";
-import close from "./close.svg";
-import "./index.css";
+import info from "../assets/info.svg";
+import close from "../assets/close.svg";
+import "../assets/index.css";
 
 export type TipsBannerProps = {
   children: ReactNode;
   onClose?: () => void;
 };
 
+/** 横幅形式的消息提醒 */
 export default function TipsBanner({ children, onClose }: TipsBannerProps) {
   return (
     <div className="rc-tips-banner">

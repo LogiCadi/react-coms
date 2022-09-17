@@ -1,4 +1,4 @@
-import Example from "./TipsBanner/example";
+import Example from "./TipsBanner/dist/example";
 
 function App() {
   return <Example />;
