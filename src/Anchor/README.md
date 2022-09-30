@@ -8,6 +8,6 @@ a 标签
 import Anchor from "./index";
 
 export default function Example() {
-  return <Anchor onClick={() => console.log("好的")}>请勿随地大小便</Anchor>;
+  return <Anchor onClick={() => console.log("好的")}>please do not defecate in public.</Anchor>;
 }
 ```
