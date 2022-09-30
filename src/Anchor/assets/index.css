@@ -1,0 +1,14 @@
+.rc-anchor {
+  color: var(--primary-color, #237fd6);
+  cursor: pointer;
+  padding: 0 4px;
+}
+.rc-anchor.rc-underline:hover {
+  text-decoration: underline;
+}
+.rc-anchor.rc-opacity:hover {
+  opacity: 0.9;
+}
+.rc-anchor.rc-bg-color:hover {
+  background-color: var(--bg-text-color, #efefef);
+}
