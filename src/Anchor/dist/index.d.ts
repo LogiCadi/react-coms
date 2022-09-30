@@ -5,4 +5,4 @@ export declare type AnchorProps = {
     hoverStyleType?: "underline" | "opacity" | "bg-color";
 } & HTMLAttributes<HTMLAnchorElement>;
 /** a标签 */
-export default function Anchor(props: AnchorProps): JSX.Element;
+export default function Anchor({ hoverStyleType, children, ...props }: AnchorProps): JSX.Element;
