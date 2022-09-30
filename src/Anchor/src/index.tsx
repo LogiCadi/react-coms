@@ -1,4 +1,4 @@
-import { HTMLAttributes } from "react";
+import React, { HTMLAttributes } from "react";
 import "../assets/index.css";
 
 export type AnchorProps = {
@@ -7,10 +7,10 @@ export type AnchorProps = {
 } & HTMLAttributes<HTMLAnchorElement>;
 
 /** a标签 */
-export default function Anchor(props: AnchorProps) {
+export default function Anchor({ hoverStyleType, children, ...props }: AnchorProps) {
   return (
-    <a className={`rc-anchor rc-${props.hoverStyleType ?? "underline"}`} {...props}>
-      {props.children}
+    <a className={`rc-anchor rc-${hoverStyleType ?? "underline"}`} {...props}>
+      {children}
     </a>
   );
 }
