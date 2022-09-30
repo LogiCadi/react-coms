@@ -9,7 +9,7 @@ export type AnchorProps = {
 /** a标签 */
 export default function Anchor({ hoverStyleType, children, ...props }: AnchorProps) {
   return (
-    <a className={`rc-anchor rc-${hoverStyleType ?? "underline"}`} {...props}>
+    <a className={`rc-anchor rc-${hoverStyleType ?? "opacity"}`} {...props}>
       {children}
     </a>
   );
