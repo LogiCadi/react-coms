@@ -1,4 +1,4 @@
-import Example from "./Anchor/dist/example";
+import Example from "./TextPlace/dist/example";
 
 function App() {
   return <Example />;

@@ -1,0 +1,14 @@
+{
+  "name": "react-coms-text-place",
+  "version": "1.0.1",
+  "description": "文本占位符",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  }
+}
